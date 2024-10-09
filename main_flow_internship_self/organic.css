@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    background-image: url("organic_farming.jpg");
+}
+
+.organic_agriculture{
+    text-align: center;
+    padding: 180px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+nav .organic_farming{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60 px;
+    padding-left:50px;
+    
+}
+
+nav{
+    /* text-align: left; */
+     height: 60px;
+     /* width: auto; */
+     color: white;
+     background-color: rgb(2, 59, 2);
+     /* box-shadow: 0 3px 15px rgbs(0,0,0,-4); */
+}
+
+nav ol{
+    float: right;
+    margin-right: 50px;
+    padding-top: 1.5%;
+    
+}
+
+nav ol li{
+    display:inline;
+}
+
+
+nav ol li a{
+    color: white;
+    padding: 5px;
+    margin-top: 10%;
+    font-size: 20px;
+    
+
+}
+
+nav ol li a.active,nav ol li a:hover{
+    color: aqua;
+    
+}
